@@ -15,6 +15,13 @@ This tool should not be used as the only means for a user to detect spoofing. Pl
 - Displays SPF, DKIM, and DMARC status clearly
 - Error handling for empty fields
 
+## Setting Up Unpacked Google Chrome Extension
+1. Download the repository
+2. In Google Chrome visit the url: chrome://extensions
+3. Select 'Load Unpacked'
+4. Select the repository folder you have downloaded
+5. The extension should now appear in your Chrome Extensions
+
 ## How It Works
 1. Find the message source of an existing email.
 2. Paste the raw email header string into the text area of the tool.
