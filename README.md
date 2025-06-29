@@ -7,6 +7,8 @@ Simple Chrome extension tool that parses a raw email header string and extracts 
 
 This tool should not be used as the only means for a user to detect spoofing. Please use your judgement when opening suspicious emails.
 
+![Default](img/default.png)
+
 ## Features
 - Parses raw email headers to find authentication results
 - Supports multi-line `Authentication-Results` blocks
@@ -28,3 +30,13 @@ This tool should not be used as the only means for a user to detect spoofing. Pl
 3. The tools finds the `Authentication-Results` block from the header.
 4. It extracts the SPF, DKIM, and DMARC results using regular expressions.
 5. The results are then rendered dynamically in the UI.
+
+## Screenshots
+### Passed Verification
+![Pass](img/pass.png)
+
+### Failed Verification
+![Fail](img/fail.png)
+
+### Warning
+![Warning](img/warning.png)
