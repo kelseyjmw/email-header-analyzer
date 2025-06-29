@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="popup.css">
+    </head>
+    <body>
+        <div id="top">
+            <h1>Email Header Analyzer</h1>
+            <p>Paste your email header below, then select
+                validate to check if this email's SPF, DKIM, and DMARC fields are valid.
+            </p>
+        </div>
+
+        <div id="result-container">
+            <h2 id="result-message"></h2>
+            <div id="results"></div>
+            <p id="action"></p>
+        </div>
+        <br>
+
+        <div id="header-container">
+            <form id="email-header-form">
+                <textarea id="email-header" name="email-header" placeholder="Paste raw email headers here..."></textarea>
+                <div id="button-container">
+                    <button class="btn-grad" type="submit" id="submit-btn">Validate</button>
+                    <button class="btn-grad-red" type="button" id="clear-btn">Clear</button>
+                </div>
+            </form>
+        </div>
+        <script src="popup.js"></script>
+    </body>
+</html>

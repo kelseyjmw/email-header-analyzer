@@ -1,0 +1,10 @@
+{
+    "name": "Email Header Analyzer",
+    "description": "Analyze Email sources to check for SPF/DKIM/DMARC validation.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action" : {
+        "default_popup": "popup/popup.html",
+        "default_icon": "icon.png"
+    }
+}
