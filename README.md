@@ -35,8 +35,5 @@ This tool should not be used as the only means for a user to detect spoofing. Pl
 ### Passed Verification
 ![Pass](img/pass.png)
 
-### Failed Verification
-![Fail](img/fail.png)
-
 ### Warning
 ![Warning](img/warning.png)
